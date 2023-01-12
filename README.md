@@ -1,5 +1,7 @@
 # Coding-Portfolio
 
+This is a personal portfolio project that I will complete and then be able to show to future employers for a chance to work for their company!
+
 ## Acceptance Criteria:
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
