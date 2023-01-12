@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+
+label.logo {
+color: white;
+font-size: 20px;
+line-height: 100px;
+}
+
+nav img {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    margin-right: 25px;
+
+}
+
+nav ul li {
+    display: inline-flex;
+    color: white;
+    line-height: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: gold;
+}
+section img {
+    float: right;
+    margin-right: 200px;
+    width: 35%;
+}
+
+section h1 {
+  position: absolute;
+  margin-left: 225px;
+  margin-top: 250px;
+  font-size: 50px;
+}
+
+section.opening h2 {
+    position: absolute;
+    margin-left: 275px;
+    margin-top: 350px;
+    font-size: 30px;
+}
+
+section.opening p {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 400px;
+    font-size: 20px;
+    text-align: center;
+}
+
+section.boxes {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 100px;
+  border: 5px solid black;
+  margin-top: 750px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+section.boxes:hover {
+    color: gold;
+}
