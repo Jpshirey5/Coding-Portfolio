@@ -41,6 +41,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    
 }
 
 nav ul li a:hover {
@@ -50,6 +51,7 @@ section img {
     float: right;
     margin-right: 200px;
     width: 35%;
+    transition: ease-in;
 }
 
 section h1 {
@@ -74,7 +76,7 @@ section.opening p {
     text-align: center;
 }
 
-section.boxes {
+section.boxes-1 {
   display: block;
   background-color: black;
   color: white;
@@ -84,9 +86,51 @@ section.boxes {
   margin-bottom: 10px;
   font-size: 30px;
   text-align: center;
+}
+
+section.boxes-2 {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 100px;
+  border: 5px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-align: center;
 
 }
 
-section.boxes:hover {
+section.boxes-3 {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 100px;
+  border: 5px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-align: center;
+
+}
+section.boxes-1:hover {
     color: gold;
+    cursor: pointer;
+    
+}
+section.boxes-2:hover {
+    color: gold;
+    cursor: pointer;
+}
+section.boxes-3:hover {
+    color: gold;
+    cursor: pointer;
+}
+
+footer {
+    padding: 30px;
+    font: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
